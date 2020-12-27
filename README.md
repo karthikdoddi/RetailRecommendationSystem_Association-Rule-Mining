@@ -43,3 +43,12 @@ Lift(Milk → Bread) = 33.3/10
 = 3.33%
 
 Lift basically tells us that the likelihood of buying Milk and Bread together is 3.33 times more than the likelihood of just buying the bread. A Lift of 1 means there is no association between products A and B. Lift of greater than 1 means products A and B are more likely to be bought together. Finally, Lift of less than 1 refers to the case where two products are unlikely to be bought together.
+
+
+
+
+- Performed market basket analysis and create association rules to recommend items that are commonly bought together
+
+- Analyzed the transactional data for the retail store to provide insights on the items that are bought together frequently. This will help the retail store to plan its design and layout of the products to improve profits.
+
+- I have used Apriori algorithm to calculate the association mining rules based on this package (http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/#example-1-generating-association-rules-from-frequent-itemsets)
